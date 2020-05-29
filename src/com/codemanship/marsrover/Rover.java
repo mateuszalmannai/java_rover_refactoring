@@ -21,8 +21,6 @@ public class Rover {
 
     public void go(String instructions) {
         instructions.chars().forEach((instruction) -> {
-            System.out.println("Instruction: " + instruction);
-
             if(instruction == 'R'){
 
                 if(facing == "N") {
