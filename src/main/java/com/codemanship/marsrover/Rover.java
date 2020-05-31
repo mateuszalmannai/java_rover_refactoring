@@ -1,7 +1,5 @@
 package com.codemanship.marsrover;
 
-import java.util.Arrays;
-
 public class Rover {
     private int[] position;
     private String facing;
